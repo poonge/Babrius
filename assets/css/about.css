@@ -1,0 +1,20 @@
+#about__container {
+   padding: 4rem 0;
+   border-bottom: 1px solid #ddd;
+   background: #04a0ed;
+}
+
+#about * {
+   color: #000b11;
+}
+
+.about--title {
+   font-size: 2.5rem;
+   margin-top: 0;
+}
+
+.about--text {
+   font-size: 1.1rem;
+   line-height: 2rem;
+   margin-bottom: 0;
+}
