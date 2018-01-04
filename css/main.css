@@ -178,7 +178,7 @@ nav a:hover {
 .page__element:hover {
    position: relative;
    bottom: 0.5rem;
-   box-shadow: 0 5px 5px #d1d1d1;
+   box-shadow: 0 5px 10px #04ed88;;
 }
 
 
@@ -191,4 +191,20 @@ nav a:hover {
 #contact__container {
    padding: 4rem 0;
    border-top: 2px solid #ddd;
+}
+
+
+
+/* ######################################## */
+/* ######################################## */
+
+
+
+footer {
+   padding: 4rem 0;
+   background: #04ed88;
+}
+
+#footer__content ul {
+   padding: 0;
 }
