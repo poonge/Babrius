@@ -1,210 +1,131 @@
-/* global id and class */
-
 body {
-   background: #f1f1f1;
-}
-
-
+  background: #f1f1f1; }
 
 .content {
-   width: 90%;
-   margin: 0 auto;
-}
+  width: 90%;
+  margin: 0 auto; }
 
 @media screen and (min-width: 35.5em) {
-   .content {
-      width: 90%;
-   }
-}
-
+  .content {
+    width: 90%; } }
 @media screen and (min-width: 48em) {
-   .content {
-      width:  80%;
-   }
-}
-
+  .content {
+    width: 80%; } }
 @media screen and (min-width: 64em) {
-   .content {
-      width: 60%;
-   }
-}
-
-
-
+  .content {
+    width: 60%; } }
 .title--medium {
-   font-size: 2.5rem;
-   margin: 0 0 2rem;
-   color: #000b11;
-}
-
-
+  font-size: 2.5rem;
+  margin: 0 0 2rem;
+  color: #000b11; }
 
 /* ######################################## */
 /* ######################################## */
-
-
-/* id and class in the top of the page */
-
 #top__container {
-   background: #000b11;
-}
-
-
+  background: #000b11; }
 
 nav {
-   padding: 1.5rem 0;
-}
-
-nav ul {
-   padding: 0;
-   width: 100%;
-   text-align: center;
-}
-
-nav li {
-   display: block !important;
-   width: 100% !important;
-   margin: 1rem 0;
-}
-
-nav a {
-   text-decoration: none;
-   color: #fff;
-}
-
-nav a:hover {
-   color: #04a0ed;
-}
+  padding: 1.5rem 0; }
+  nav ul {
+    padding: 0;
+    width: 100%;
+    text-align: center; }
+  nav li {
+    display: block !important;
+    width: 100% !important;
+    margin: 1rem 0; }
+  nav a {
+    text-decoration: none;
+    color: #fff; }
+  nav a:hover {
+    color: #04a0ed; }
 
 @media screen and (min-width: 48em) {
-   nav {
-      padding: 2rem 0 !important;
-   }
-   
-   nav ul {
-      text-align: left;   
-   }
-   
-   nav li {
+  nav {
+    padding: 2rem 0 !important; }
+    nav ul {
+      text-align: left; }
+    nav li {
       display: inline-block !important;
       width: auto !important;
-      margin-right: 2rem !important;
-   }
-}
-
-
-
+      margin-right: 2rem !important; } }
 #top {
-   padding: 5rem 0 10rem;
-}
+  padding: 5rem 0 10rem; }
 
 .top--title,
 .top--subtitle {
-   margin: 4rem 0;
-}
+  margin: 4rem 0; }
 
 .top--title {
-   font-size: 5.5rem;
-   margin-top: 0;
-   color: #f1f1f1;
-}
+  font-size: 5.5rem;
+  margin-top: 0;
+  color: #f1f1f1; }
 
 .top--subtitle {
-   font-size: 3.5rem;
-   margin-bottom: 0;
-   color: #ddd;
-}
+  font-size: 3.5rem;
+  margin-bottom: 0;
+  color: #ddd; }
 
 .top--blue-text {
-   color: #04a0ed;
-}
+  color: #04a0ed; }
 
 .top--green-text {
-   color: #04ed88;
-}
-
-
+  color: #04ed88; }
 
 /* ######################################## */
 /* ######################################## */
-
-
-
 #about__container {
-   padding: 4rem 0;
-   border-bottom: 1px solid #ddd;
-   background: #04a0ed;
-}
+  padding: 4rem 0;
+  border-bottom: 1px solid #ddd;
+  background: #04a0ed; }
 
 #about * {
-   color: #000b11;
-}
+  color: #000b11; }
 
 .about--text {
-   font-size: 1.1rem;
-   line-height: 2rem;
-   margin-bottom: 0;
-   color: #000b11;
-}
-
-
+  font-size: 1.1rem;
+  line-height: 2rem;
+  margin-bottom: 0;
+  color: #000b11; }
 
 /* ######################################## */
 /* ######################################## */
-
-
-
 #page__container {
-   padding: 4rem 0;
-}
+  padding: 4rem 0; }
 
 #page .pure-g {
-   margin: 0 -1rem;
-}
+  margin: 0 -1rem; }
 
 .page__element {
-   position: relative;
-   bottom: 0;
-   transition-property: all;
-   transition-duration: 0.2s;
-   background: #fff;
-   margin: 1rem;
-   padding: 1rem;
-   border-radius: 6px;
-   box-shadow: 0 0 5px #d1d1d1;
-   border: 1px solid transparent;
-}
+  position: relative;
+  bottom: 0;
+  transition-property: all;
+  transition-duration: 0.2s;
+  background: #fff;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 6px;
+  box-shadow: 0 0 5px #d1d1d1;
+  border: 1px solid transparent; }
 
 .page__element:hover {
-   position: relative;
-   bottom: 0.5rem;
-   box-shadow: 0 5px 10px #04ed88;;
-}
-
-
+  position: relative;
+  bottom: 0.5rem;
+  box-shadow: 0 5px 10px #04ed88; }
 
 /* ######################################## */
 /* ######################################## */
-
-
-
 #contact__container {
-   padding: 4rem 0;
-   border-top: 2px solid #ddd;
-}
-
-
+  padding: 4rem 0;
+  border-top: 2px solid #ddd; }
 
 /* ######################################## */
 /* ######################################## */
-
-
-
 footer {
-   padding: 4rem 0;
-   background: #04ed88;
-}
+  padding: 4rem 0;
+  background: #04ed88; }
 
 #footer__content ul {
-   padding: 0;
-}
+  padding: 0; }
+
+/*# sourceMappingURL=main.css.map */

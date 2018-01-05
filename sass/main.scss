@@ -1,0 +1,213 @@
+// import
+
+@import 'colors';
+
+//
+
+body {
+   background: #f1f1f1;
+}
+
+
+
+.content {
+   width: 90%;
+   margin: 0 auto;
+}
+
+@media screen and (min-width: 35.5em) {
+   .content {
+      width: 90%;
+   }
+}
+
+@media screen and (min-width: 48em) {
+   .content {
+      width:  80%;
+   }
+}
+
+@media screen and (min-width: 64em) {
+   .content {
+      width: 60%;
+   }
+}
+
+
+
+.title--medium {
+   font-size: 2.5rem;
+   margin: 0 0 2rem;
+   color: $black;
+}
+
+
+
+/* ######################################## */
+/* ######################################## */
+
+
+
+#top__container {
+   background: $black;
+}
+
+
+
+nav {
+   padding: 1.5rem 0;
+
+   ul {
+      padding: 0;
+      width: 100%;
+      text-align: center;
+   }
+
+   li {
+      display: block !important;
+      width: 100% !important;
+      margin: 1rem 0;
+   }
+
+   a {
+      text-decoration: none;
+      color: #fff;
+   }
+
+   a:hover {
+      color: $blue;
+   }
+}
+
+@media screen and (min-width: 48em) {
+   nav {
+      padding: 2rem 0 !important;
+   
+      ul {
+         text-align: left;   
+      }
+   
+      li {
+         display: inline-block !important;
+         width: auto !important;
+         margin-right: 2rem !important;
+      }
+   }
+}
+
+
+
+#top {
+   padding: 5rem 0 10rem;
+}
+
+.top--title,
+.top--subtitle {
+   margin: 4rem 0;
+}
+
+.top--title {
+   font-size: 5.5rem;
+   margin-top: 0;
+   color: #f1f1f1;
+}
+
+.top--subtitle {
+   font-size: 3.5rem;
+   margin-bottom: 0;
+   color: #ddd;
+}
+
+.top--blue-text {
+   color: $blue;
+}
+
+.top--green-text {
+   color: $green
+}
+
+
+
+/* ######################################## */
+/* ######################################## */
+
+
+
+#about__container {
+   padding: 4rem 0;
+   border-bottom: 1px solid #ddd;
+   background: $blue;
+}
+
+#about * {
+   color: $black;
+}
+
+.about--text {
+   font-size: 1.1rem;
+   line-height: 2rem;
+   margin-bottom: 0;
+   color: $black;
+}
+
+
+
+/* ######################################## */
+/* ######################################## */
+
+
+
+#page__container {
+   padding: 4rem 0;
+}
+
+#page .pure-g {
+   margin: 0 -1rem;
+}
+
+.page__element {
+   position: relative;
+   bottom: 0;
+   transition-property: all;
+   transition-duration: 0.2s;
+   background: #fff;
+   margin: 1rem;
+   padding: 1rem;
+   border-radius: 6px;
+   box-shadow: 0 0 5px #d1d1d1;
+   border: 1px solid transparent;
+}
+
+.page__element:hover {
+   position: relative;
+   bottom: 0.5rem;
+   box-shadow: 0 5px 10px $green;
+}
+
+
+
+/* ######################################## */
+/* ######################################## */
+
+
+
+#contact__container {
+   padding: 4rem 0;
+   border-top: 2px solid #ddd;
+}
+
+
+
+/* ######################################## */
+/* ######################################## */
+
+
+
+footer {
+   padding: 4rem 0;
+   background: $green
+}
+
+#footer__content ul {
+   padding: 0;
+}
