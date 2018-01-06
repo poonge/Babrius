@@ -196,6 +196,20 @@ nav {
    border-top: 2px solid #ddd;
 }
 
+#contact__link {
+   text-align: center;
+   margin: 0 auto;
+   padding-top: 4rem;
+   
+   a {
+      margin: 0 2rem;
+      
+      &:hover {
+         color: $blue;
+      }
+   }
+}
+
 
 
 /* ######################################## */

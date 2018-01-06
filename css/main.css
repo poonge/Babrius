@@ -119,6 +119,15 @@ nav {
   padding: 4rem 0;
   border-top: 2px solid #ddd; }
 
+#contact__link {
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 4rem; }
+  #contact__link a {
+    margin: 0 2rem; }
+    #contact__link a:hover {
+      color: #04a0ed; }
+
 /* ######################################## */
 /* ######################################## */
 footer {
