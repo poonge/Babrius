@@ -222,6 +222,18 @@ footer {
    background: $green
 }
 
+#footer__content {
+   
+}
+
 #footer__content ul {
    padding: 0;
+}
+
+.footer--item {
+   margin: 1rem;
+}
+
+#footer__container {
+   margin: -1rem;
 }
