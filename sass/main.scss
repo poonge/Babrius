@@ -72,12 +72,13 @@ nav {
    a {
       text-decoration: none;
       color: #fff;
-   }
 
-   a:hover {
-      color: $blue;
+      &:hover {
+         color: $blue;
+      }
    }
 }
+   
 
 @media screen and (min-width: 48em) {
    nav {
@@ -176,12 +177,12 @@ nav {
    border-radius: 6px;
    box-shadow: 0 0 5px #d1d1d1;
    border: 1px solid transparent;
-}
 
-.page__element:hover {
-   position: relative;
-   bottom: 0.5rem;
-   box-shadow: 0 5px 10px $green;
+   &:hover {
+      position: relative;
+      bottom: 0.5rem;
+      box-shadow: 0 5px 10px $green;
+   }
 }
 
 
@@ -220,10 +221,6 @@ nav {
 footer {
    padding: 4rem 0;
    background: $green
-}
-
-#footer__content {
-   
 }
 
 #footer__content ul {
