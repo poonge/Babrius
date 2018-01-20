@@ -1,7 +1,7 @@
-# personal-website
+# Babrius
 
-Un petit site personnel gratuit.
+---
 
-___
+Babrius est un portoflio très simple développé en HTML/CSS(SASS).
 
-icones -> fontawesome.com
+Vous êtes libre de l'utiliser comme vous le souhaitez **tant que vous respecter la licence MIT**.
